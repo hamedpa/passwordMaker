@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:autoLink="web"
+             android:background="#FFFFFF">
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff4444"
+            android:orientation="vertical">
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="12dip"
+                        android:background="#ff4444"
+                        android:src="@drawable/hinweis" />
+
+                <TextView
+                        android:id="@+id/uber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uber"
+                        android:textStyle="bold"
+                        android:background="#ff4444"
+                        android:padding="12dip"
+                        android:textColor="#000000" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+                android:id="@+id/uber_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingTop="12dip"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:text="@string/uber_detail1"
+                android:textAllCaps="true"
+                android:autoLink="web"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        <TextView
+                android:id="@+id/uber_blank1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:autoLink="web"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        <TextView
+                android:id="@+id/uber_detail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:autoLink="web"
+                android:text="@string/uber_detail2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        <TextView
+                android:id="@+id/uber_blank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:autoLink="web"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        <TextView
+                android:id="@+id/uber_detail3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="12dip"
+                android:paddingBottom="12dip"
+                android:paddingRight="12dip"
+                android:text="@string/uber_detail3"
+                android:autoLink="web"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        <TextView
+                android:id="@+id/uber_blank3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:autoLink="web"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        <TextView
+                android:id="@+id/uber_detail4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:textAllCaps="true"
+                android:text="@string/uber_detail4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        <TextView
+                android:id="@+id/uber_end_of_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#ff4444"/>
+
+    </LinearLayout>
+</FrameLayout>

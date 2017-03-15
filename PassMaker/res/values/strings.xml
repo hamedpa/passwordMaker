@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">PassMaker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+<string name="options_name">OPTIONS
+    </string>
+
+    //Lower Case
+    <string name="abc">abc
+    </string>
+    <string name="lower_case">Lower Case
+    </string>
+
+    //Upper Case
+    <string name="ABC">ABC
+    </string>
+    <string name="upper_case">Upper Case
+    </string>
+
+    //Numbers
+    <string name="num_l">123
+    </string>
+    <string name="num_r">Numbers
+    </string>
+
+    //Special
+    <string name="special_l">$+.!?#
+    </string>
+    <string name="special_r">Special
+    </string>
+
+    //Digits
+    <string name="digit_left">6
+    </string>
+    <string name="digit_more">+ more
+    </string>
+    <string name="digit_less">less -
+    </string>
+
+    //GENERATE
+    <string name="generate">GENERATE
+    </string>
+
+    //Password
+    <string name="password">YOUR PASSWORD
+    </string>
+
+    // Uber
+    <string name="uber">INFOS
+    </string>
+    <string name="uber_detail1">Support and Feedback:
+    </string>
+    <string name="uber_detail2">Decoder();
+    </string>
+    <string name="uber_detail3">Hamedpa
+    </string>
+    <string name="uber_detail4">2016
+    </string>
+    <string name="password_placeholder">No Password Generated Yet</string>
+    <string name="checkbox_uppercase">Uppercase Letters</string>
+    <string name="checkbox_lowercase">Lowercase Letters</string>
+    <string name="checkbox_numbers">Numbers</string>
+    <string name="checkbox_special">Special Characters</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="textview_length">Length</string>
+    <string name="default_password_length">20</string>
+    <string name="button_generate_password">Generate Password</string>
+    <string name="b1">Pass Maker1</string>
+    <string name="b2">Pass Maker2</string>
+    <string name="b3">Pass Maker3</string>
+
+    <string name="pass_copied_toast">Password copied to clipboard</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <!-- Generate Activity -->
+    <string name="generate_generate_button">Generate</string>
+    <string name="generate_copy_button">Copy</string>
+    <string name="generate_password_length_label">Password Length</string>
+    <string name="generate_mixed_case_label">Mixed Case</string>
+    <string name="generate_symbols_label">Symbols</string>
+    <string name="generate_numbers_label">Numbers</string>
+    <string name="generate_history_button">Password History</string>
+    <string name="generate_menu_preferences">Settings</string>
+
+    <!-- Password History Activity -->
+    <string name="history_activity_title">Password History</string>
+    <string name="history_activity_subtitle">Tap a password to copy it to the clipboard</string>
+    <string name="history_clear_button">Clear Password History</string>
+    <string name="pass_length_prompt">Password Length</string>
+    <string name="history_confirm_history_delete_dialog_title">Please confirm</string>
+    <string name="history_confirm_history_delete_dialog">Are you sure you want to clear your password history?</string>
+
+    <!-- Preferences -->
+    <string name="prefs_history_category">Password History</string>
+    <string name="prefs_history_keep">Keep password history</string>
+    <string name="prefs_history_limit">Password history limit</string>
+    <string name="prefs_history_size_dialog_title">Password history limit</string>
+    <string name="prefs_history_confirm_delete_dialog_title">Please confirm</string>
+    <string name="prefs_history_confirm_delete_dialog">Disabling password history will immediately clear your current password history items. Are you sure you want to do this?</string>
+    <string name="title_activity_about">About</string>
+    <string name="large_text">
+        "A random password generator is software program or hardware device that takes input from a random or pseudo-random number generator and automatically generates a password. Random passwords can be generated manually, using simple sources of randomness such as dice or coins, or they can be generated using a computer."
+        "\n\nDeveloped by Hamedpa"
+        "\n\n"
+        "2016"
+    </string>
+</resources>
